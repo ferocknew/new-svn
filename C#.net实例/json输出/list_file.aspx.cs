@@ -20,6 +20,7 @@ public partial class _Default : System.Web.UI.Page
         if (username_ == null) { Response.Write(callback + "(error)"); Response.End(); } //判断用户信息
 
         //------------建立连接--------------------SQL Server
+		//测试svn
         string strConnection = "user id=sa;password=sa;";
         strConnection += "initial catalog=ed2klink;Server=chenyl;";
         strConnection += "Connect Timeout=30";
