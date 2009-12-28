@@ -12,20 +12,8 @@ using System.Web.UI.HtmlControls;
 public partial class _Default : System.Web.UI.Page
 {
     protected void Page_Load(object sender, EventArgs e)
-    {
-        if (!IsPostBack)
-        {
-            //txtTest.Text = "局部刷新了";
-        }
-        else
-        {
-            //txtTest.Text = "整體刷新了";
-        }
+    {   
+    
     }
-
-    public string jquery()
-    {
-        string result = "success";
-        return result;
-    }
+   
 }
