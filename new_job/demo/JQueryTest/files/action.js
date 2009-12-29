@@ -4,7 +4,7 @@ $(function(){
 			type: "POST",
 			contentType: "application/json",
 			url: "../WebService/TestWS01.asmx/HelloWorld",
-			 data: "{}",
+			data: "{}",
 			dataType: "json",
 			success: function(json){
 				var html_="Name:" + json.d.Name + "  Pwd:" + json.d.Pwd;
