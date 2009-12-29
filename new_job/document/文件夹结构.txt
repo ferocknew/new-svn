@@ -1,0 +1,18 @@
+..\---	
+	[DATA]  数据库
+		...
+	[TK-Admin] 后台管理
+		[lib] 后台通用文件库
+			[js] JavaScript文件库
+			...
+		[files] 其他文件
+			[css] CSS样式库
+			[images]
+			...
+		...
+	[lib] 通用文件库
+		[css] CSS样式库
+		[dataoutput] 异步数据输出库
+		[js] JavaScript文件库
+		[doc] 相关文档
+		...
