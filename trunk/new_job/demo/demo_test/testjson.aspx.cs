@@ -204,6 +204,8 @@ public static class JSONConvert
             }
             else if (kvp.Value is String)
             {
+                int a=0;                
+                bool Flag= int.TryParse(kvp.Value.ToString(), out a);
                 sb.Append(string.Format("\"{0}\":\"{1}\",", kvp.Key, kvp.Value));
             }
             else
