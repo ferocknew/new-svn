@@ -25,7 +25,7 @@ public class TestWS01 : System.Web.Services.WebService {
     public TestRType HelloWorld()
     {        
         TestRType Result = new TestRType();
-        Result.Name = "Todayn";
+        Result.Name = "中文";
         Result.Pwd = "123456";
         return Result;
     }
