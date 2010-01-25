@@ -33,6 +33,10 @@ public partial class Default2 : System.Web.UI.Page
 
         Response.Write(JSONConvert.SerializeObject(jsonObject));
 
+
+        string a = "{dd:\\\"132132\\\"}";
+        Response.Write(a);
+
     }
 }
 //using System.Collections.Generic;
@@ -82,6 +86,7 @@ public static class JSONConvert
     private static string StrDecode(string text)
     {
         return text.Replace(_SEMICOLON, ":").Replace(_COMMA, ",");
+        
     }
 
     #endregion
