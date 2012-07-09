@@ -1,5 +1,0 @@
-C:\Users\Todayn\Documents\Visual Studio 2008\Projects\JsonConvert\bin\Debug\JsonConvert.dll
-C:\Users\Todayn\Documents\Visual Studio 2008\Projects\JsonConvert\bin\Debug\JsonConvert.pdb
-C:\Users\Todayn\Documents\Visual Studio 2008\Projects\JsonConvert\obj\Debug\ResolveAssemblyReference.cache
-C:\Users\Todayn\Documents\Visual Studio 2008\Projects\JsonConvert\obj\Debug\JsonConvert.dll
-C:\Users\Todayn\Documents\Visual Studio 2008\Projects\JsonConvert\obj\Debug\JsonConvert.pdb
